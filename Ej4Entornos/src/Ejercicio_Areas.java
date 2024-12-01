@@ -28,4 +28,3 @@ public class Ejercicio_Areas {
         }
     }
 }
-}
