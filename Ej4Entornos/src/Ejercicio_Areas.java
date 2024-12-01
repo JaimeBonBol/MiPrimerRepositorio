@@ -7,7 +7,7 @@ public class Ejercicio_Areas {
         //Repaso estructura de control switch.
 
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Elige una opción: \n1: Cuadrado \n2: Rectángulo");
+        System.out.println("Elige una opción: \n1: Cuadrado \n2: Rectángulo \n3: Triángulo");
 
         int figura = entrada.nextInt();
 
@@ -21,6 +21,12 @@ public class Ejercicio_Areas {
                 int base =Integer.parseInt(JOptionPane.showInputDialog("Introduce la base: "));
                 int altura =Integer.parseInt(JOptionPane.showInputDialog("Introduce la altura: "));
                 System.out.println("La formula del rectángulo es "+base*altura);
+                break;
+
+            case 3:
+                base = Integer.parseInt(JOptionPane.showInputDialog("Introduce la base: "));
+                altura =Integer.parseInt(JOptionPane.showInputDialog("Introduce la altura: "));
+                System.out.println("El área del trinagulo es "+base*altura/2);
                 break;
 
             default:
